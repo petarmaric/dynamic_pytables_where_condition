@@ -34,8 +34,8 @@ Quick start::
     >>> construct_where_condition(t_b_min=4.0, t_b_max=8.0, a_min=2000.0)
     '(a >= 2000.0) & (t_b <= 8.0) & (t_b >= 4.0)'
 
-    >>> construct_where_condition(t_b_min=4.0, t_b_max=None, a_min=None)
-    '(t_b >= 4.0)'
+    >>> construct_where_condition(t_b_fix=4.0, t_b_max=None, a_min=None)
+    '(t_b == 4.0)'
 
 Please see the `fsm_modal_analysis`_ source code for more examples.
 
