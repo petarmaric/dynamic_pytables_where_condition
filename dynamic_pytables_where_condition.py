@@ -4,6 +4,7 @@ __version__ = '1.0.0'
 _LIMIT_TO_OPERATOR = {
     'min': '>=',
     'max': '<=',
+    'fix': '==',
 }
 
 
