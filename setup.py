@@ -10,7 +10,7 @@ setup(
     author_email='petarmaric@uns.ac.rs',
     description='Python library that dynamically constructs a PyTables where '\
                 'condition from the supplied keyword arguments.',
-    long_description=open('README').read(),
+    long_description=open('README.rst').read(),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
