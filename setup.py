@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dynamic_pytables_where_condition',
-    version='1.1.0',
+    version='1.1.1',
     url='https://github.com/petarmaric/dynamic_pytables_where_condition',
     license='BSD',
     author='Petar Maric',
